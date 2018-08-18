@@ -130,3 +130,12 @@ SELECT value, (SELECT avg(value) FROM temperature)-value as deviation, createdAt
 
 ## Instaling Socket.io
 npm install --save socket.io
+
+## Instaling Firebase
+npm install -g firebase-tools  
+firebase --version  
+firebase login  
+firebase init  
+firebase serve  
+firebase deploy
+
